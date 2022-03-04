@@ -33,6 +33,17 @@ section {
   font-weight: 700;
   line-height: 78px;
 }
+.heading-2 {
+  font-size: 40px;
+  color: #575757;
+  font-weight: 700;
+  line-height: 78px;
+}
+.text-box {
+  text-align: center;
+  width: calc(100% / 3);
+  margin: 0 auto;
+}
 .btn-box {
   margin-top: 50px;
   display: inline-block;
@@ -64,4 +75,31 @@ section {
   background-position: right center; /* change the direction of the change here */
   color: #fff;
   text-decoration: none;
+}
+#section-2 {
+  background-image: url("images/bg-2.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.recp-card {
+  width: calc((100%-10%) / 3);
+  box-shadow: 0 0 40px rgba(0, 0, 0, 0.15);
+  border-radius: 30px;
+}
+.recp-card:nth-of-type(odd) {
+  margin-left: 50px;
+  margin-right: 50px;
+}
+.img-box {
+  width: 90%;
+  padding: 5%;
+  /* margin: 0 auto; */
+}
+.img-box img {
+  width: 100%;
+  border-radius: 5%;
+}
+.text-box-inner {
+  padding: 5%;
 }
