@@ -1,11 +1,37 @@
-body {
-  margin: 0;
+body,
+p,
+h1,
+h2,
+h3 {
+  margin: 0 !important;
   font-family: "Montserrat", sans-serif;
 }
 
-h1 {
-  margin-top: 40px;
-  margin-bottom: 40px;
+.navbar {
+  background-color: #fff;
+  /* border: 1px solid grey; */
+  padding: 8px 0px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+.navbar-nav {
+  text-align: center;
+}
+.navbar-nav li {
+  display: inline;
+}
+.navbar .navbar-nav li a {
+  color: #0b0d17;
+  padding: 15px 15px;
+  text-decoration: none;
+  display: inline;
+  outline: none;
+  transition: all 0.5s ease-in-out;
+}
+
+.navbar-nav li a:hover {
+  color: #fff;
+  background-color: #0b0d17;
 }
 
 .flexible-container {
@@ -25,6 +51,7 @@ h1 {
   width: 100%;
 }
 section {
+  margin-top: 50px;
   margin-bottom: 100px;
 }
 .heading-1 {
@@ -42,7 +69,7 @@ section {
 .text-box {
   text-align: center;
   width: calc(100% / 3);
-  margin: 0 auto;
+  margin: 0 auto 40px;
 }
 .btn-box {
   margin-top: 50px;
@@ -76,16 +103,24 @@ section {
   color: #fff;
   text-decoration: none;
 }
+
 #section-2 {
   background-image: url("images/bg-2.png");
   background-repeat: no-repeat;
   background-size: cover;
 }
-
-.recp-card {
+.one-third-width {
   width: calc((100%-10%) / 3);
+}
+.text-center {
+  text-align: center;
+}
+.recp-card {
   box-shadow: 0 0 40px rgba(0, 0, 0, 0.15);
   border-radius: 30px;
+}
+.subscribtion-card {
+  padding: 65px 0px;
 }
 .recp-card:nth-of-type(odd) {
   margin-left: 50px;
@@ -102,4 +137,12 @@ section {
 }
 .text-box-inner {
   padding: 5%;
+  line-height: 20px;
+}
+footer {
+  background-color: #0b0d17;
+  padding: 40px 0;
+}
+.copy-right {
+  color: #fff;
 }
