@@ -1,0 +1,67 @@
+body {
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+h1 {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.flexible-container {
+  display: flex;
+}
+.orange-color {
+  background-image: linear-gradient(salmon, tomato);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.half-width {
+  width: 50%;
+  margin-left: 100px;
+}
+.half-width img {
+  width: 100%;
+}
+section {
+  margin-bottom: 100px;
+}
+.heading-1 {
+  font-size: 60px;
+  color: #575757;
+  font-weight: 700;
+  line-height: 78px;
+}
+.btn-box {
+  margin-top: 50px;
+  display: inline-block;
+  min-height: 60px;
+}
+.btn-grad {
+  background-image: linear-gradient(
+    to right,
+    #ff512f 0%,
+    #f09819 51%,
+    #ff512f 100%
+  );
+}
+
+.btn-grad {
+  box-shadow: -2px 1px 20px 1px rgba(252, 143, 73, 0.5);
+  text-decoration: none;
+  padding: 20px 40px;
+  text-align: center;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  border-radius: 100px;
+  font-weight: 400;
+  float: left;
+}
+
+.btn-grad:hover {
+  background-position: right center; /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+}
